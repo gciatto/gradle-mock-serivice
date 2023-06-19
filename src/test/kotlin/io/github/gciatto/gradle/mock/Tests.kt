@@ -1,4 +1,4 @@
-package org.danilopianini.gradle.test
+package io.github.gciatto.gradle.mock
 
 import com.uchuhimo.konf.Config
 import com.uchuhimo.konf.source.yaml

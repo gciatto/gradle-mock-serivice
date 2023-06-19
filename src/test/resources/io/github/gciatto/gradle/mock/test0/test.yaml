@@ -1,0 +1,7 @@
+tests:
+  - description: "Tests may exploit the Mocked service"
+    configuration:
+      tasks: test
+    expectation:
+      output_contains: "GET http://localhost:8080/hello ... 200 OK"
+      success: test

@@ -20,15 +20,15 @@ plugins {
 /*
  * Project information
  */
-group = "org.danilopianini"
-description = "A template repository for kickstarting Gradle Plugins"
+group = "io.github.gciatto"
+description = "A Gradle plugin for starting mock services as Gradle tasks"
 inner class ProjectInfo {
-    val longName = "Template for Gradle Plugins"
-    val website = "https://github.com/DanySK/$name"
+    val longName = "Gradle Plugin for Mock Service"
+    val website = "https://github.com/gciatto/$name"
     val vcsUrl = "$website.git"
     val scm = "scm:git:$website.git"
-    val pluginImplementationClass = "$group.template.HelloGradle"
-    val tags = listOf("template", "kickstart", "example")
+    val pluginImplementationClass = "$group.gradle.mock.MockServicePlugin" // io.github.gciatto.gradle.mock
+    val tags = listOf("mock", "service", "web")
 }
 val info = ProjectInfo()
 
@@ -42,6 +42,7 @@ repositories {
 
 multiJvm {
     maximumSupportedJvmVersion.set(latestJavaSupportedByGradle)
+    jvmVersionForCompilation.set(11)
 }
 
 dependencies {
@@ -52,6 +53,7 @@ dependencies {
     testImplementation(libs.konf.yaml)
     testImplementation(libs.classgraph)
     testImplementation(libs.bundles.kotlin.testing)
+    api(libs.javalin)
 }
 
 // Enforce Kotlin version coherence
@@ -114,8 +116,8 @@ publishOnCentral {
     projectDescription.set(description ?: TODO("Missing description"))
     projectUrl.set(info.website)
     scmConnection.set(info.scm)
-    repository("https://maven.pkg.github.com/DanySK/${rootProject.name}".lowercase(), name = "github") {
-        user.set("danysk")
+    repository("https://maven.pkg.github.com/gciatto/${rootProject.name}".lowercase(), name = "github") {
+        user.set("gciatto")
         password.set(System.getenv("GITHUB_TOKEN"))
     }
     publishing {
@@ -124,9 +126,9 @@ publishOnCentral {
                 pom {
                     developers {
                         developer {
-                            name.set("Danilo Pianini")
+                            name.set("Giovanni Ciatto")
                             email.set("danilo.pianini@gmail.com")
-                            url.set("http://www.danilopianini.org/")
+                            url.set("https://about.me/gciatto")
                         }
                     }
                 }

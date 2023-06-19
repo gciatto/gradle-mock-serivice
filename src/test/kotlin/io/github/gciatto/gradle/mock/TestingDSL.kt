@@ -1,4 +1,4 @@
-package org.danilopianini.gradle.test
+package io.github.gciatto.gradle.mock
 
 import com.uchuhimo.konf.ConfigSpec
 import org.gradle.internal.impldep.org.apache.commons.lang.StringUtils
