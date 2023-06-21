@@ -1,3 +1,25 @@
+## 1.0.0 (2023-06-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* implement mock agent
+
+### Features
+
+* implement mock agent ([bf216a7](https://github.com/gciatto/gradle-mock-serivice/commit/bf216a7dc079b53fd701de37ba273e5d3a3b8de4))
+
+
+### General maintenance
+
+* **ci:** disable fail-fast, highlight gradle scan ([a2605d2](https://github.com/gciatto/gradle-mock-serivice/commit/a2605d209d5192c62751bf464df378afc20d7e6e))
+* **ci:** fix maven central credentials ([bcc6d9c](https://github.com/gciatto/gradle-mock-serivice/commit/bcc6d9ce14618f4e8d926ed93783a5983a502d52))
+
+
+### Dependency updates
+
+* **deps:** update plugin com.gradle.enterprise to v3.13.4 ([11f4111](https://github.com/gciatto/gradle-mock-serivice/commit/11f41117a46389392ddda477d08e3e062f10f7d6))
+
 ## [1.0.38](https://github.com/DanySK/Template-for-Gradle-Plugins/compare/1.0.37...1.0.38) (2023-06-07)
 
 
