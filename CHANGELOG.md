@@ -1,3 +1,12 @@
+## [1.0.1](https://github.com/gciatto/gradle-mock-serivice/compare/1.0.0...1.0.1) (2023-06-30)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency gradle to v8.2 ([8e7449f](https://github.com/gciatto/gradle-mock-serivice/commit/8e7449ffe563c08240cd9923b00a4665cfc271ce))
+* **deps:** update dependency io.javalin:javalin to v5.6.1 ([558aa8e](https://github.com/gciatto/gradle-mock-serivice/commit/558aa8e5a3a2777d831b1a28564a08808117cc33))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.38 ([05688d2](https://github.com/gciatto/gradle-mock-serivice/commit/05688d2def4595a21c1a548bf2333b5255c7b560))
+
 ## 1.0.0 (2023-06-21)
 
 
