@@ -1,3 +1,21 @@
+## [1.0.2](https://github.com/gciatto/gradle-mock-serivice/compare/1.0.1...1.0.2) (2023-07-10)
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v3.7.0 ([21eb5f4](https://github.com/gciatto/gradle-mock-serivice/commit/21eb5f4f6e3525f081f48ba869c1ca4278ba7280))
+
+
+### Dependency updates
+
+* **core-deps:** update dependency gradle to v8.2.1 ([0c41d14](https://github.com/gciatto/gradle-mock-serivice/commit/0c41d1402888afb505e87822a67d26cb009a7ff3))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.161 ([38bc7e4](https://github.com/gciatto/gradle-mock-serivice/commit/38bc7e4c508fb194517a7f0842c5e8a1b88b8448))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.39 ([3d9a28b](https://github.com/gciatto/gradle-mock-serivice/commit/3d9a28bf0ccba8f41f41b8690878d5b701099d4c))
+* **deps:** update plugin multijvmtesting to v0.5.3 ([a2bc219](https://github.com/gciatto/gradle-mock-serivice/commit/a2bc2193453cf49b946e756dafd480ffaf6e07a3))
+* **deps:** update plugin org.gradle.toolchains.foojay-resolver-convention to v0.6.0 ([3355eee](https://github.com/gciatto/gradle-mock-serivice/commit/3355eee29fd705c7bd13d16a9a5bc7e4f7946fc6))
+* **deps:** update plugin publishoncentral to v5.0.8 ([45c7c9f](https://github.com/gciatto/gradle-mock-serivice/commit/45c7c9f37239ca93d5a03f4193c70cc996a12318))
+* **deps:** update plugin publishoncentral to v5.0.9 ([ccf9acc](https://github.com/gciatto/gradle-mock-serivice/commit/ccf9acc5ab4da42f17dd48575f22e65d425de01a))
+
 ## [1.0.1](https://github.com/gciatto/gradle-mock-serivice/compare/1.0.0...1.0.1) (2023-06-30)
 
 
