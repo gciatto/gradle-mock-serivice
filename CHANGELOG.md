@@ -1,3 +1,14 @@
+## [1.0.4](https://github.com/gciatto/gradle-mock-serivice/compare/1.0.3...1.0.4) (2023-08-31)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.dokka to v1.9.0 ([bccce75](https://github.com/gciatto/gradle-mock-serivice/commit/bccce753a33de71e2982e4ac202dd45e5eead255))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.44 ([5b68008](https://github.com/gciatto/gradle-mock-serivice/commit/5b680085bcab8aa771a6ac118e712b6ac301c2f5))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.46 ([c1066df](https://github.com/gciatto/gradle-mock-serivice/commit/c1066df2d274c38526b6bd35784dfbc5a585241e))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.47 ([c91708f](https://github.com/gciatto/gradle-mock-serivice/commit/c91708fc1f7eb849d6445028ed01294911c0d39f))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.49 ([aacc1bf](https://github.com/gciatto/gradle-mock-serivice/commit/aacc1bf29eccfcb39bffa7f81fc714706d186744))
+
 ## [1.0.3](https://github.com/gciatto/gradle-mock-serivice/compare/1.0.2...1.0.3) (2023-08-24)
 
 
