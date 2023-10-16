@@ -1,3 +1,13 @@
+## [1.0.6](https://github.com/gciatto/gradle-mock-serivice/compare/1.0.5...1.0.6) (2023-10-16)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.dokka to v1.9.10 ([81cc6a9](https://github.com/gciatto/gradle-mock-serivice/commit/81cc6a99cfcbdb1e3e0fbf672f1ce5c66cf3056d))
+* **deps:** update dependency io.github.classgraph:classgraph to v4.8.163 ([88ddfb6](https://github.com/gciatto/gradle-mock-serivice/commit/88ddfb649e18ab5f4d1149411dcd1c9451d9146b))
+* **deps:** update dependency io.javalin:javalin to v5.6.3 ([07fc123](https://github.com/gciatto/gradle-mock-serivice/commit/07fc1233e44331fdcdde9398b2ef3793799eb728))
+* **deps:** update plugin com.gradle.enterprise to v3.15.1 ([2160946](https://github.com/gciatto/gradle-mock-serivice/commit/2160946ae5c274de79c96dc134f9bab6d474dde9))
+
 ## [1.0.5](https://github.com/gciatto/gradle-mock-serivice/compare/1.0.4...1.0.5) (2023-10-04)
 
 
