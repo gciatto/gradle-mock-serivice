@@ -1,3 +1,54 @@
+## [1.0.8](https://github.com/gciatto/gradle-mock-serivice/compare/1.0.7...1.0.8) (2024-02-09)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency gradle to v8.6 ([4531ec6](https://github.com/gciatto/gradle-mock-serivice/commit/4531ec69994f7dbf056eddb4773e2d5a3a9d9ec6))
+* **core-deps:** update dependency org.jetbrains.kotlin.jvm to v1.9.22 ([35521e6](https://github.com/gciatto/gradle-mock-serivice/commit/35521e66e7b3eabd47375637dc216c2ba1700e70))
+* **deps:** update dependency io.javalin:javalin to v6 ([10216d3](https://github.com/gciatto/gradle-mock-serivice/commit/10216d31a7e1803699919d785eddcd98c6bb8f29))
+* **deps:** update dependency io.javalin:javalin to v6.0.1 ([5447def](https://github.com/gciatto/gradle-mock-serivice/commit/5447defc059e614c075e2e44773d7da3195e9dc9))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.79 ([d72bd35](https://github.com/gciatto/gradle-mock-serivice/commit/d72bd3529a936c5056e94d37a33c0e37f4a1554d))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.80 ([b3b7f86](https://github.com/gciatto/gradle-mock-serivice/commit/b3b7f86e501dccaa30ea6573ec1227a44dfe44e7))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.82 ([a3433c1](https://github.com/gciatto/gradle-mock-serivice/commit/a3433c1b32b350e85cc858627b4ea11e96fb02f8))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.83 ([cefb1d0](https://github.com/gciatto/gradle-mock-serivice/commit/cefb1d05c7e18f020458a47b3902e346ed7465d5))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.84 ([4f1fedb](https://github.com/gciatto/gradle-mock-serivice/commit/4f1fedb4c5f5bfdfe4568eb4dd82252b2565691d))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.85 ([f38b8e6](https://github.com/gciatto/gradle-mock-serivice/commit/f38b8e622aba9ea20ae320003b989769558d52bd))
+* **deps:** update node.js to 20.11 ([d2d6e2e](https://github.com/gciatto/gradle-mock-serivice/commit/d2d6e2e21cd064250a815885b0b5c81115700887))
+* **deps:** update plugin com.gradle.enterprise to v3.16 ([8ac3900](https://github.com/gciatto/gradle-mock-serivice/commit/8ac3900b7c0bf05b0677325102d537bce3a68298))
+* **deps:** update plugin com.gradle.enterprise to v3.16.1 ([a5b1c2d](https://github.com/gciatto/gradle-mock-serivice/commit/a5b1c2d647d503ad711365f8c8c34498f8c37b72))
+* **deps:** update plugin com.gradle.enterprise to v3.16.2 ([533c145](https://github.com/gciatto/gradle-mock-serivice/commit/533c145505142268017b03a1e730caa17a4a59d8))
+* **deps:** update plugin gitsemver to v2.0.4 ([24aa1a3](https://github.com/gciatto/gradle-mock-serivice/commit/24aa1a3e32ce4f0b4ff4021e92cefb8c7ef34d9b))
+* **deps:** update plugin gitsemver to v2.0.5 ([d5ea1da](https://github.com/gciatto/gradle-mock-serivice/commit/d5ea1daac32fff60b91cd256dc99c55c7fa5179a))
+* **deps:** update plugin gitsemver to v3 ([4071a1d](https://github.com/gciatto/gradle-mock-serivice/commit/4071a1d26299c06b887cc32073403030e09fab48))
+* **deps:** update plugin gitsemver to v3.1.0 ([aec0540](https://github.com/gciatto/gradle-mock-serivice/commit/aec0540534ffe11d7d71347609c975001708ba6e))
+* **deps:** update plugin gitsemver to v3.1.1 ([9022ffd](https://github.com/gciatto/gradle-mock-serivice/commit/9022ffd9ade291160c8a08ec1a7abd36f389c883))
+* **deps:** update plugin kotlin-qa to v0.59.1 ([df432f0](https://github.com/gciatto/gradle-mock-serivice/commit/df432f0f131813f6b819328ff623bd191240dd95))
+* **deps:** update plugin kotlin-qa to v0.60.0 ([1b29c40](https://github.com/gciatto/gradle-mock-serivice/commit/1b29c40ce2c168a6ba5d23437f15e48fb5832f71))
+* **deps:** update plugin multijvmtesting to v0.5.7 ([dd8fd6e](https://github.com/gciatto/gradle-mock-serivice/commit/dd8fd6e1bb3f559394cc468ea068c70bbc0ea9ca))
+* **deps:** update plugin multijvmtesting to v0.5.8 ([64ac9fb](https://github.com/gciatto/gradle-mock-serivice/commit/64ac9fb27f3222df723a0ce0eb049123251f37e9))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.16 ([4f33467](https://github.com/gciatto/gradle-mock-serivice/commit/4f33467ce352368c061e5ff816c767c2ab5a4911))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.17 ([c5f8a8b](https://github.com/gciatto/gradle-mock-serivice/commit/c5f8a8b345edeee1c14faecae267a8cc812f0734))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2 ([c84531b](https://github.com/gciatto/gradle-mock-serivice/commit/c84531b8b4df42786b80b6f489db22595fd29034))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.1 ([57e542c](https://github.com/gciatto/gradle-mock-serivice/commit/57e542c71f5a075862b45a810c1e260b810e76f6))
+* **deps:** update plugin org.gradle.toolchains.foojay-resolver-convention to v0.8.0 ([9a2af20](https://github.com/gciatto/gradle-mock-serivice/commit/9a2af20ba4809055fd157cf6dadb49272ac318cf))
+* **deps:** update plugin publishoncentral to v5.0.22 ([7b69cbb](https://github.com/gciatto/gradle-mock-serivice/commit/7b69cbb41e43cc488f868538ed42fa2951303fe1))
+* **deps:** update plugin publishoncentral to v5.0.23 ([629fbeb](https://github.com/gciatto/gradle-mock-serivice/commit/629fbeb627c900bcc281fce900cdf05e578d7a00))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v4.0.1 ([eee304a](https://github.com/gciatto/gradle-mock-serivice/commit/eee304aea2ad794c39e920d412c46052c2c04d36))
+* **deps:** update actions/setup-node action to v4.0.2 ([06421d7](https://github.com/gciatto/gradle-mock-serivice/commit/06421d745b7873d895b9136bf774f3374d7f4d64))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.12 ([ef2b6c3](https://github.com/gciatto/gradle-mock-serivice/commit/ef2b6c3d9118dd5dabd7e0495bb79b196d592435))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.13 ([5bec040](https://github.com/gciatto/gradle-mock-serivice/commit/5bec0407f6ed689e34f490b3612a19d22a27d565))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.14 ([5bf74e9](https://github.com/gciatto/gradle-mock-serivice/commit/5bf74e95ce0cc466b5a74e2906c51faa6beea120))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.15 ([a6a75db](https://github.com/gciatto/gradle-mock-serivice/commit/a6a75db6647d6c35a8830629ecdc73f16b38f2eb))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.16 ([ff5188f](https://github.com/gciatto/gradle-mock-serivice/commit/ff5188f8efe7dd6f1e7e639fd216dc2d90b95a20))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.3.0 ([ee4efe4](https://github.com/gciatto/gradle-mock-serivice/commit/ee4efe41707424ed66ddb2710014b3b292b1374c))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.3.1 ([70ac554](https://github.com/gciatto/gradle-mock-serivice/commit/70ac554378b9d4e204d892312b6186901cb13c5a))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.3.2 ([3ae8720](https://github.com/gciatto/gradle-mock-serivice/commit/3ae8720a9576e7a98dd9683dc37b522bb452ace5))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.0 ([dc73210](https://github.com/gciatto/gradle-mock-serivice/commit/dc73210b3fa9d8b4635bef00737eae94d9e2eadd))
+
 ## [1.0.7](https://github.com/gciatto/gradle-mock-serivice/compare/1.0.6...1.0.7) (2023-11-29)
 
 
